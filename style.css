@@ -130,7 +130,7 @@ nav ul li + li {
 }
 
 nav ul li + li + li {
-    margin-left: 30px;  
+    margin-left: 30px;  /* Third icon  */
     transform: translateX(-200%);
 }
 
