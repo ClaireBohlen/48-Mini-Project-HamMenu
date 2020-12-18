@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-/* comment */
+/*  */
 *{
     box-sizing: border-box;
 }
@@ -85,10 +85,10 @@ body{
 
 }
 
-
+/* We want to see all the nav when the show-nav class applies */
 .container.show-nav + nav li {
-    transform: translateX(0); /*  */
-    transition-delay: 0.3s; /* smooth */
+    transform: translateX(0); /* bring to original place */
+    transition-delay: 0.3s; /* add a delay*/
 }
 
 
@@ -125,13 +125,12 @@ nav ul li i {
 
 
 nav ul li + li {
-    margin-left: 15px;
-    transform: translateX(-150%);
+    margin-left: 15px; /* second icon will stick out  */
+    transform: translateX(-150%); /* smoothly slide */
 }
 
-
 nav ul li + li + li {
-    margin-left: 30px;
+    margin-left: 30px;  
     transform: translateX(-200%);
 }
 
