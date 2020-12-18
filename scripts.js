@@ -6,4 +6,8 @@ const container = document.querySelector('.container')
 
 open.addEventListener('click', () => container.classList.add ('show-nav'))
 
+//When the open class is clicked on we are going to add a class to the container 
+
 close.addEventListener('click', ()=> container.classList.remove('show-nav'))
+
+//When the close class is clicked on we are going to add a class to the container 

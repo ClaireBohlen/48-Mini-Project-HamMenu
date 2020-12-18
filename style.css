@@ -48,6 +48,7 @@ body{
 
 }
 
+/* this will rotate the circle when the container has show nav applied  */
 
 .container.show-nav .circle{
     transform: rotate(-70deg)
