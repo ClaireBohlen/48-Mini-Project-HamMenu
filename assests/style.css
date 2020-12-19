@@ -17,15 +17,15 @@
 body{
     font-family: 'roboto'sans-serif;
     margin: 0;
-    overflow-x: hidden;
     background-image: linear-gradient(to right,#FFCDB2, #B5838D, #6D6875); 
     color: var(--old-lavender);
+    overflow-x: hidden;
 }
 .container{
     background-color: var(--apricot);
     transform-origin: top left;
     transition: transform 0.5s linear;
-    width: 100vh;
+    width: 100vw;
     min-height: 100vh;
     padding: 50px;
 }
@@ -89,9 +89,13 @@ nav ul{
 nav ul li{
     text-transform: uppercase;
     margin: 40px 0;
-    transform: translateX(-100);
+    transform: translateX(-100%);
     transition: transform 0.4s ease-in;
 
+}
+nav ul li i {
+    font-size: 20px;
+    margin-right: 10px;
 }
 nav ul li + li {
     margin-left: 15px;
