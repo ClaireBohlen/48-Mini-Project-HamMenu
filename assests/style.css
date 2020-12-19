@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+/* Color Palette */
+:root{
+    --apricot: #FFCDB2;
+    --melon: #FFB4A2;
+    --pastel: #E5989B;
+    --english-lav: #B5838D;
+    --old-lavender: #6D6875;
+}
+
+
 *{
     box-sizing: border-box;
 }
@@ -7,10 +17,32 @@
 body{
     font-family: 'roboto'sans-serif;
     margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items:  center;
-    justify-content: center;
+    overflow-x: hidden;
     height: 100vh;
-    overflow: hidden;
+    background-image: linear-gradient(to right,#FFCDB2, #B5838D, #6D6875); 
+    color: var(--old-lavender);
 }
+.container{
+    background-color: var(--apricot);
+    width: 100vh;
+    min-height: 100vh;
+    /* padding: 50px; */
+}
+.circle-container{
+    position: fixed;
+    top: -100px;
+    left: -100px;
+}
+.circle{
+    background-color: var(--pastel);
+    height: 200px;
+    width:200px;
+    border-radius: 50%;
+    position: relative;
+
+}
+.circle button {
+    cursor: pointer;
+
+}
+
