@@ -1,6 +1,6 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 [![MIT License][license-shield]][license-url]
-[![Portfolio][portfolio-shield]][lportfolio-url]
+[![Portfolio][portfolio-shield]][linkedin-url]
 <!-- See bottom of readme for badge information -->
 
 
@@ -15,7 +15,7 @@
   <h3 align="center">50 Days of Code Challenge</h3>
 
   <p align="center">
-    Quick Description
+    Rotating Hamburger Nav Menu 
     <br />
     <!-- Enter repo url here -->
     <a href="https://https://github.com/ClaireBohlen/React-Update-Portfolio-2.0"><strong>Explore the Repo »</strong></a> 
@@ -28,64 +28,16 @@
 </p>
 
 
-
-<!-- Table of Contents -->
-<details open="open">
-  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li> 
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
-  </ol>
-</details>
-
-
-
-<!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<!-- Take a screen shot and save it in readMeAssets -->
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
-
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
-
-
+This is a simple page with a nav menu in the top right corner that displays the navigation on click. It reveals the under layer of the page with all the navigation links. This project was made with mostly CSS and a few lines of JavaScript.
 
 A list of commonly used resources that I find helpful are listed in the acknowledgements.
-
-
-
-
-### Built With
-<!-- * [Laravel](https://laravel.com) -->
-* []()
-* []()
-* []()
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
 
 <!-- CONTACT -->
 ## Contact
 
-Claire C. Bohlen - [@twitter_handle](https://twitter.com/twitter_handle) - clairebohlen@gmail.com
+Claire C. Bohlen - clairebohlen@gmail.com
 
 
 
@@ -94,9 +46,8 @@ Claire C. Bohlen - [@twitter_handle](https://twitter.com/twitter_handle) - clair
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 * [50 Days of Code Challenge](https://www.udemy.com/course/50-projects-50-days/)
-* []()
-* []()
-* []()
+* [Free Stock Photos](https://unsplash.com/)
+
 
 
 
