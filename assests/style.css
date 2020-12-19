@@ -18,15 +18,19 @@ body{
     font-family: 'roboto'sans-serif;
     margin: 0;
     overflow-x: hidden;
-    height: 100vh;
     background-image: linear-gradient(to right,#FFCDB2, #B5838D, #6D6875); 
     color: var(--old-lavender);
 }
 .container{
     background-color: var(--apricot);
+    transform-origin: top left;
+    transition: transform 0.5s linear;
     width: 100vh;
     min-height: 100vh;
-    /* padding: 50px; */
+    padding: 50px;
+}
+.container.show-nav{
+    transform: rotate(-20deg);
 }
 .circle-container{
     position: fixed;
